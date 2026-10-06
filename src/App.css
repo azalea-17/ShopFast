@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+    --color-sea-mist: #BBD0BD;
+    --color-ivory: #FDF6EC;
+    --color-axolotl: #667667;
+}
+
+* {
+    @apply font-sans;
+}
+
+body {
+    @apply bg-ivory text-gray-800;
+}
